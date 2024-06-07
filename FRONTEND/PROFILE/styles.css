@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #2b2b2b;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-info {
+    background-color: #3a3a3a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.details {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.details h2 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.menu-item {
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.profile {
+    background: url('College_pic.png') no-repeat center center;
+    background-size: cover;
+    flex-grow: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile h1 {
+    font-size: 32px; /* Adjust the font size here */
+    margin-bottom: 20px;
+    text-align: left; /* Center align the text */
+}
+
+
+.profile-details {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
