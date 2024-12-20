@@ -1,3 +1,3 @@
 # Hostel-ERP
-A functional website for hostel data management.
+This is the frontend of the hostel ERP
 (Work in progress)
