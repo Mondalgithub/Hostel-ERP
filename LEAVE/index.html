@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Leave Request</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile.png" alt="Profile Picture">
+                <h2>Shovan Mondal</h2>
+                <p>Roll No.: 1CR23IS160</p>
+                <p>Semester: II</p>
+                <p>Course: BE (ISE)</p>
+                <p>SEC: C</p>
+            </div>
+            <div class="menu">
+                <button>Profile</button>
+                <button>Register</button>
+                <button>Leave Request</button>
+                <button>Maintenance Request</button>
+                <button>Raise Complaint</button>
+                <button>About</button>
+            </div>
+            <button class="logout">Logout</button>
+        </div>
+        <div class="main-content">
+            <h1>Hostel | Leave Request</h1>
+            <p>Once requested for a leave, please wait up to 12 hours for it to get approved. Please contact the warden before leaving the hostel.</p>
+            <form>
+                <div class="form-group">
+                    <label for="student-name">Student Name:</label>
+                    <input type="text" id="student-name" placeholder="XXXXXXXXX">
+                </div>
+                <div class="form-group">
+                    <label for="room-no">Room No.:</label>
+                    <input type="text" id="room-no" placeholder="XXXX">
+                </div>
+                <div class="form-group">
+                    <label for="sharing">Sharing:</label>
+                    <input type="text" id="sharing" placeholder="X">
+                </div>
+                <div class="form-group">
+                    <label for="reason">Reason:</label>
+                    <textarea id="reason" placeholder="Reason"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <textarea id="location" placeholder="Location"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="from">From:</label>
+                    <input type="date" id="from">
+                    <label for="to">To:</label>
+                    <input type="date" id="to">
+                </div>
+                <div class="form-group">
+                    <label for="emergency-contact-name">Emergency Contact Name:</label>
+                    <input type="text" id="emergency-contact-name">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
